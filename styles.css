@@ -1,63 +1,68 @@
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: #f0e6ff;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #fff5f5;
+    min-height: 100vh;
     font-family: 'Indie Flower', cursive;
-    overflow: hidden;
+    padding: 15px;
 }
 
 .container {
     text-align: center;
-    background-color: #ffebee;
-    padding: 40px;
-    border-radius: 20px;
-    border: 3px solid #ff6b81;
-    box-shadow: 0 8px 20px rgba(255, 107, 129, 0.3);
-    max-width: 400px;
-    width: 90%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
 }
 
 .header_text {
-    font-size: 36px;
-    color: #ff6b81;
+    color: #333;
+    font-size: 1.8rem;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(255, 107, 129, 0.2);
+}
+
+.gif_container {
+    margin-bottom: 20px;
 }
 
 .gif_container img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    margin-bottom: 20px;
+    object-fit: contain;
 }
 
 .buttons {
-    margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 15px;
 }
 
 .btn {
-    padding: 12px 24px;
-    font-size: 20px;
-    border: 2px solid #ff6b81;
-    border-radius: 10px;
+    flex: 1;
+    max-width: 120px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    transition: all 0.3s ease;
-    background-color: #ff6b81;
-    color: white;
     font-family: 'Indie Flower', cursive;
-    box-shadow: 0 4px 10px rgba(255, 107, 129, 0.3);
+    transition: transform 0.2s, background-color 0.2s;
 }
 
-.btn:hover {
-    background-color: white;
-    color: #ff6b81;
+#yesButton {
+    background-color: #4CAF50;
+    color: white;
     transform: translateY(-2px);
     box-shadow: 0 6px 15px rgba(255, 107, 129, 0.4);
 }
