@@ -5,17 +5,18 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; 
-    background-color: #fff5f5; 
+    background-color: #ff6b81; 
     font-family: 'Indie Flower', cursive;
     overflow: hidden; 
+    color: #2c3e50;
 }
 
 .container {
     text-align: center;
-    background-color: #ffebee; 
+    background-color: white; 
     padding: 40px;
     border-radius: 20px;
-    border: 3px solid #ff6b81; 
+    border: 3px solid #b71c1c; 
     box-shadow: 0 8px 20px rgba(255, 107, 129, 0.3); 
     max-width: 600px; 
     width: 90%; 
@@ -24,9 +25,9 @@ body {
 .header_text {
     font-size: 50px;
     font-weight: bold;
-    color: #ff6b81; 
+    color: #2ecc71; 
     margin: 20px 0;
-    text-shadow: 2px 2px 4px rgba(255, 107, 129, 0.2); 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
 }
 
 .gif_container {
@@ -41,4 +42,3 @@ body {
     height: auto;
     border-radius: 10px; 
 }
-
